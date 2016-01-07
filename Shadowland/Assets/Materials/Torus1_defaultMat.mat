@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Torus1_defaultMat
-  m_Shader: {fileID: 4800000, guid: 98e44338c0d8bde41ad647579aa2609d, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _DETAIL_MULX2 _NORMALMAP
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -19,21 +19,21 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: fc83aa10b2d1264459fc18fe1ea152d9, type: 3}
+          m_Texture: {fileID: 2800000, guid: 563bd61cebe0dfe458d26b66cf8ddc84, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: a67746ccf89fdad44953182256f56521, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Texture: {fileID: 2800000, guid: 1a3dc7f56d11cdc41a7dd90007c5ed3d, type: 3}
+          m_Scale: {x: 0.2, y: 0.2}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DetailNormalMap
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 1a3dc7f56d11cdc41a7dd90007c5ed3d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -54,21 +54,21 @@ Material:
         first:
           name: _EmissionMap
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 6f39a98a04bc72b44a66da74b6163443, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DetailMask
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 563bd61cebe0dfe458d26b66cf8ddc84, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DetailAlbedoMap
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 563bd61cebe0dfe458d26b66cf8ddc84, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -82,8 +82,8 @@ Material:
         first:
           name: _MatCap
         second:
-          m_Texture: {fileID: 2800000, guid: 5a049a5395c90154dbc3d1cc025c2f59, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Texture: {fileID: 2800000, guid: 563bd61cebe0dfe458d26b66cf8ddc84, type: 3}
+          m_Scale: {x: 0.2, y: 0.2}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
@@ -100,6 +100,10 @@ Material:
         second: 0.5
       data:
         first:
+          name: _Shininess
+        second: 0.03
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -109,7 +113,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0.5
+        second: 0.501
       data:
         first:
           name: _BumpScale
@@ -125,7 +129,7 @@ Material:
       data:
         first:
           name: _UVSec
-        second: 0
+        second: 1
       data:
         first:
           name: _Mode
@@ -133,7 +137,7 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 0
+        second: 0.364
       data:
         first:
           name: _MatCapAccurate
@@ -146,4 +150,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 0.3979716, b: 0.17647058, a: 1}
+        second: {r: 0, g: 1, b: 0.13103461, a: 1}
